@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palurda Palestra - Editorial</title>
+
+  <!-- TailwindCSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body class="bg-white text-black font-bold">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between p-4 border-b border-gray-300">
+    <a href="index.html" class="flex items-center">
+      <img src="assets/Palurdalogo.png" alt="Palurda Palestra" class="h-36 w-auto">
+    </a>
+    <nav>
+      <ul class="flex gap-6 font-Helvetica">
+        <li><a href="#ediciones" class="hover:text-red-600">Ediciones</a></li>
+        <li><a href="#articulos" class="hover:text-red-600">Artículos</a></li>
+        <li><a href="#contacto" class="hover:text-red-600">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main class="p-6 max-w-4xl mx-auto">
+    <!-- Ediciones -->
+    <section id="Publicaciones" class="mb-12">
+      <h1 class="text-3xl font-Helvetica mb-4">Publicaciones</h1>
+      <p class="text-gray-600">Aún no hay ediciones publicadas. Muy pronto encontrarás nuestras publicaciones aquí.</p>
+      <!-- 🔹 Para agregar nuevas ediciones, copia y pega este bloque debajo -->
+      <!--
+      <article class="border p-4 rounded shadow mb-4">
+        <h2 class="text-xl font-semibold">No habia pregunta c</h2>
+        <p class="text-gray-700">Breve descripción de la edición.</p>
+        <a href="ruta-de-la-edicion.html" class="text-red-600 font-medium hover:underline">Leer más</a>
+      </article>
+      -->
+    </section>
+    <!-- Autores -->
+    <section id="autores" class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">Autores</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- 🔹 Autor ejemplo -->
+        <div class="border rounded-lg shadow p-4 text-center">
+          <img src="assets/Vergara.png" alt="Juan Pablo Vergara-Marín" class="h-40 w-40 object-cover mx-auto mb-4">
+          <h3 class="text-xl font-regular">Juan Pablo Vergara Marín</h3>
+          <p class="text-gray-600 text-sm mt-2">
+            Escritor, historiador y ocioso. Bogotano y hasta ahí, le ha dedicado gran parte de su vida a perderse en los detalles, no mira a los ojos y procura hablar sobre lo que no sabe porque así se aprende más.
+          </p>
+        </div>
+
+        <!-- 🔹 Otro autor (puedes duplicar este bloque) -->
+        <div class="border rounded-lg shadow p-4 text-center">
+          <img src="assets/Bastidas.png" alt="Nombre del Autor" class="h-40 w-40 object-cover mx-auto mb-4">
+          <h3 class="text-xl font-semibold">Jimmy Alejandro Bastidas</h3>
+          <p class="text-gray-600 text-sm mt-2">
+            Biografía breve de esta autora. Aquí puedes contar sus obras publicadas y su aporte a la editorial.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Artículos -->
+    <section id="articulos" class="mb-12">
+      <h2 class="text-2xl font-bold mb-4">Artículos</h2>
+      <p class="text-gray-600">No hay artículos publicados todavía.</p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2 class="text-2xl font-bold mb-4">Contacto</h2>
+      <p class="text-gray-600">
+        Escríbenos a <a href="mailto:palurdapalestra@gmail.com" class="text-red-600 font-medium">palurdapalestra@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-200 text-center p-6 mt-18">
+    <img src="assets/Palurdanegativo.png" alt="Palurda Palestra" class="h-10 mx-auto mb-3">
+    <p>&copy; 2025 Palurda Palestra. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
